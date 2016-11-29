@@ -1,0 +1,2 @@
+[20-Sep-2016 20:53:46 UTC] PHP Warning:  Module 'memcache' already loaded in Unknown on line 0
+[20-Sep-2016 20:53:47 UTC] PHP Fatal error:  Class 'WP_Metadata_Lazyloader' not found in /home/downtownwildimpa/public_html/wp-includes/meta.php on line 865

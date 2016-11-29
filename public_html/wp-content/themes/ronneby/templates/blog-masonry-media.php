@@ -1,0 +1,1 @@
+<?php require(locate_template('templates/blog-media.php'));
