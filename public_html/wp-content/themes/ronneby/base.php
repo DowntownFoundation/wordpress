@@ -26,6 +26,29 @@
 		<span class="dfd-frame-line line-left"></span>
 		<span class="dfd-frame-line line-right"></span>
 	<?php endif; ?>
+	<?php if ( is_active_sidebar( 'top-banner' ) ) : ?>
+		<style type="text/css">
+		.widget.widget_text.top-banner {
+			margin-bottom: 0;
+		}
+		#header-container{top:188px;}
+		#header-container.sticky{
+			top:58px;
+			transition: all 0.4s ease;
+		}
+		</style>
+		<script type="text/javascript">
+		jQuery(window).scroll(function() {
+		if (jQuery(this).scrollTop() > 1){  
+			jQuery('#header-container').addClass("sticky");
+		  }
+		  else{
+			jQuery('#header-container').removeClass("sticky");
+		  }
+		});
+		</script>
+		<?php dynamic_sidebar( 'top-banner' ); ?>
+	<?php endif; ?>
 <?php if (function_exists('dfd_site_preloader_html')) { dfd_site_preloader_html();}
 	get_template_part('templates/side-area');
 

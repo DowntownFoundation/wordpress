@@ -40,7 +40,11 @@
     <style>
 	@font-face {
             font-family: 'GothamLight';
-            src: url('https://downtownfoundation.org/wp-content/uploads/fonts/12058/GothamLight/GothamLight.otf') format("opentype"); 
+			src: url('https://downtownfoundation.org/wp-content/uploads/fonts/GothamLight.eot');
+			src: url('https://downtownfoundation.org/wp-content/uploads/fonts/GothamLight.eot?#iefix') format('embedded-opentype'),
+				url('https://downtownfoundation.org/wp-content/uploads/fonts/GothamLight.woff') format('woff'),
+				url('https://downtownfoundation.org/wp-content/uploads/fonts/GothamLight.ttf') format('truetype'),
+				url('https://downtownfoundation.org/wp-content/uploads/fonts/GothamLight.svg#GothamLight') format('svg'); 
 	}
     *{font-family: "GothamLight" !important;}
     .dfd-added-font-icon-right-open::before {
