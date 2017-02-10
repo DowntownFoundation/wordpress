@@ -13,6 +13,9 @@ License URI:        http://www.gnu.org/licenses/gpl-2.0.html
 
 .homeimg	{ background-position: top left !important; }
 
+#header-container.small {
+	top: 58px !important;
+}
 /*#header-container { position:fixed !important;top:auto !important}
 #header-container.sticky { position:fixed !important;top:63px !important}*/
 #mc_embed_signup {
