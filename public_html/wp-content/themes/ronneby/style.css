@@ -12,7 +12,9 @@ License URI:        http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 .homeimg	{ background-position: top left !important; }
-
+nav-menu .mega-menu-item .item-title:after{
+	position:relative !important;
+}
 #header-container.small {
 	top: 58px !important;
 }
